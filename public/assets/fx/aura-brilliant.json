@@ -1,0 +1,78 @@
+{
+  "dimensions": 2,
+  "field": {
+    "width": 96,
+    "height": 96
+  },
+  "durationMs": 2000,
+  "fps": 30,
+  "loop": true,
+  "emitters": [
+    {
+      "name": "motes",
+      "shape": "disc",
+      "position": [
+        48.0,
+        44.0,
+        0.0
+      ],
+      "extent": {
+        "radius": 22.0,
+        "size": [
+          1.0,
+          1.0,
+          0.0
+        ]
+      },
+      "emission": {
+        "mode": "rate",
+        "rate": 7.0
+      },
+      "lifetimeMs": 1100.0,
+      "lifetimeSpread": 300.0,
+      "speed": 10.0,
+      "speedSpread": 5.0,
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "coneAngle": 35.0,
+      "forces": {},
+      "particle": {
+        "sizeCurve": {
+          "interp": "ease-in-out",
+          "from": 1.0,
+          "to": 0.0
+        },
+        "opacityCurve": {
+          "interp": "ease-out",
+          "from": 0.85,
+          "to": 0.0
+        },
+        "colorGradient": [
+          {
+            "color": "#ffffff",
+            "at": 0.0
+          },
+          {
+            "color": "#fff3b0",
+            "at": 0.5
+          },
+          {
+            "color": "#ffd34d",
+            "at": 1.0
+          }
+        ]
+      }
+    }
+  ],
+  "forces": {
+    "gravity": 8.0,
+    "turbulence": {
+      "amplitude": 6.0,
+      "scale": 0.06
+    }
+  },
+  "subEmitters": []
+}

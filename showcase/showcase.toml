@@ -1,0 +1,11 @@
+[[media]]
+file = "chain.json.gz"
+name = "One swap, a six-step chain"
+
+[[media]]
+file = "chain.png"
+name = "Flawed stones going off mid-chain"
+
+[[media]]
+file = "title.png"
+name = "The title screen"
